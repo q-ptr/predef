@@ -1,0 +1,45 @@
+//                     _       __ 
+//  _ __  _ __ ___  __| | ___ / _|  
+// | '_ \| '__/ _ \/ _` |/ _ \ |_   predef - boost predef enhancements
+// | |_) | | |  __/ (_| |  __/  _|  ----------------------------------
+// | .__/|_|  \___|\__,_|\___|_|    https://github.com/q-ptr/predef
+// |_|                            
+// 
+// SPDX-FileCopyrightText: 2023 q-ptr
+// SPDX-License-Identifier: MIT
+
+#pragma once
+
+
+#include <boost/predef/platform.h>
+
+
+#if defined(BOOST_PLAT_ANDROID_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_ANDROID_NAME
+#elif defined(BOOST_PLAT_CLOUDABI_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_CLOUDABI_NAME
+#elif defined(BOOST_PLAT_IOS_DEVICE_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_IOS_DEVICE_NAME
+#elif defined(BOOST_PLAT_IOS_SIMULATOR_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_IOS_SIMULATOR_NAME
+#elif defined(BOOST_PLAT_MINGW32_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_MINGW32_NAME
+#elif defined(BOOST_PLAT_MINGW64_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_MINGW64_NAME
+#elif defined(BOOST_PLAT_WINDOWS_DESKTOP_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_WINDOWS_DESKTOP_NAME
+#elif defined(BOOST_PLAT_WINDOWS_PHONE_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_WINDOWS_PHONE_NAME
+#elif defined(BOOST_PLAT_WINDOWS_RUNTIME_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_WINDOWS_RUNTIME_NAME
+#elif defined(BOOST_PLAT_WINDOWS_SERVER_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_WINDOWS_SERVER_NAME
+#elif defined(BOOST_PLAT_WINDOWS_STORE_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_WINDOWS_STORE_NAME
+#elif defined(BOOST_PLAT_WINDOWS_SYSTEM_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_WINDOWS_SYSTEM_NAME
+#elif defined(BOOST_PLAT_WINDOWS_UWP_AVAILABLE)
+	#define QPTR_PREDEF_PLATFORM_NAME   BOOST_PLAT_WINDOWS_UWP_NAME
+#else
+	#define QPTR_PREDEF_PLATFORM_NAME   "<unknown-platform>"
+#endif

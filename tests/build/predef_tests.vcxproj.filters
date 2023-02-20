@@ -37,5 +37,17 @@
     <ClInclude Include="..\..\include\qptr\predef\compiler.hpp">
       <Filter>Header Files\predef</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\qptr\predef\configuration.hpp">
+      <Filter>Header Files\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\qptr\predef\library.hpp">
+      <Filter>Header Files\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\qptr\predef\os.hpp">
+      <Filter>Header Files\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\qptr\predef\platform.hpp">
+      <Filter>Header Files\predef</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

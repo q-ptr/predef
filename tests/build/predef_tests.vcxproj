@@ -45,6 +45,10 @@
   <ItemGroup>
     <ClInclude Include="..\..\include\qptr\predef\architecture.hpp" />
     <ClInclude Include="..\..\include\qptr\predef\compiler.hpp" />
+    <ClInclude Include="..\..\include\qptr\predef\configuration.hpp" />
+    <ClInclude Include="..\..\include\qptr\predef\library.hpp" />
+    <ClInclude Include="..\..\include\qptr\predef\os.hpp" />
+    <ClInclude Include="..\..\include\qptr\predef\platform.hpp" />
     <ClInclude Include="..\..\include\qptr\predef\version.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
