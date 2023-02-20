@@ -8,7 +8,7 @@
 ~~~~
 
 # predef
-predef - boost predef enhancements
+Boost predef enhancements
 
 # contribs
 - https://github.com/boostorg/predef
