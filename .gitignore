@@ -1,0 +1,4 @@
+.vs/
+*.vcxproj.user
+tests/temp/
+tests/bin/
