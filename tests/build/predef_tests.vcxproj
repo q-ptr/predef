@@ -43,6 +43,7 @@
     <None Include="..\..\TODO.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\qptr\predef\architecture.hpp" />
     <ClInclude Include="..\..\include\qptr\predef\version.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

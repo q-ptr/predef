@@ -31,5 +31,8 @@
     <ClInclude Include="..\..\include\qptr\predef\version.hpp">
       <Filter>Header Files\predef</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\qptr\predef\architecture.hpp">
+      <Filter>Header Files\predef</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
