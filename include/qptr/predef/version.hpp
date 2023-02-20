@@ -17,7 +17,7 @@
 namespace qptr::predef
 {
 
-static inline const std::string           VERSION_NAME          = "qptr-predef";
+static inline const std::string           VERSION_NAME          = "qptr.predef";
 static inline const std::string           VERSION_DESCRIPTION   = "boost predef enhancements";
 static inline const std::string           VERSION_URL           = "https://github.com/q-ptr/predef";
 
