@@ -2,3 +2,5 @@
 tests/bin/
 tests/build/.vs/
 tests/temp/
+build/
+.vs/

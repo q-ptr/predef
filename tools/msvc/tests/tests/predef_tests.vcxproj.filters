@@ -13,41 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\predef">
+    <Filter Include="Header Files\qptr">
+      <UniqueIdentifier>{22165e0f-4e3e-4d86-a0f7-dc1980da31e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\qptr\predef">
       <UniqueIdentifier>{0c21efae-f49c-473c-b575-91703679fe74}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\main.cpp">
+    <ClCompile Include="..\..\..\..\tests\tests\predef_tests_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\LICENSE" />
-    <None Include="..\..\README.md" />
-    <None Include="..\..\TODO.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\include\qptr\predef\version.hpp">
-      <Filter>Header Files\predef</Filter>
+    <ClInclude Include="..\..\..\..\include\qptr\predef\architecture.hpp">
+      <Filter>Header Files\qptr\predef</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\qptr\predef\architecture.hpp">
-      <Filter>Header Files\predef</Filter>
+    <ClInclude Include="..\..\..\..\include\qptr\predef\compiler.hpp">
+      <Filter>Header Files\qptr\predef</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\qptr\predef\compiler.hpp">
-      <Filter>Header Files\predef</Filter>
+    <ClInclude Include="..\..\..\..\include\qptr\predef\configuration.hpp">
+      <Filter>Header Files\qptr\predef</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\qptr\predef\configuration.hpp">
-      <Filter>Header Files\predef</Filter>
+    <ClInclude Include="..\..\..\..\include\qptr\predef\library.hpp">
+      <Filter>Header Files\qptr\predef</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\qptr\predef\library.hpp">
-      <Filter>Header Files\predef</Filter>
+    <ClInclude Include="..\..\..\..\include\qptr\predef\os.hpp">
+      <Filter>Header Files\qptr\predef</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\qptr\predef\os.hpp">
-      <Filter>Header Files\predef</Filter>
+    <ClInclude Include="..\..\..\..\include\qptr\predef\platform.hpp">
+      <Filter>Header Files\qptr\predef</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\include\qptr\predef\platform.hpp">
-      <Filter>Header Files\predef</Filter>
+    <ClInclude Include="..\..\..\..\include\qptr\predef\version.hpp">
+      <Filter>Header Files\qptr\predef</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
