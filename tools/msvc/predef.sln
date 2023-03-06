@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1286D3DB-7294-4647-9724-88FB857B9921}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "predef_fuzz_tests", "tests\fuzz_test\predef_fuzz_tests.vcxproj", "{141FEA4D-50D7-485F-8B82-0736EFC1176E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "predef_tests", "tests\tests\predef_tests.vcxproj", "{EA5F9480-6083-465D-9591-60E94E595AC7}"
